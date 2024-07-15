@@ -12,7 +12,7 @@ var e = createMux()
 func main() {
 	e.GET("/", articleIndex)
 
-	e.Logger.Fatal(e.Start(":1993"))
+	e.Logger.Fatal(e.Start(":3030"))
 }
 
 func createMux() *echo.Echo {
